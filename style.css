@@ -1,0 +1,68 @@
+/*font */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Footer */
+.header-footer {
+  background-color: orange; 
+  text-align: center;          
+  margin: 10px;
+  padding: 20px;
+}
+
+/* Navigation */
+nav {
+  background-color: #df0808;
+  display: flex;              
+  justify-content: center;   
+  padding: 10px;
+  gap: 20px;                  
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  background-color: #333;
+  border-radius: 5px;
+  display: inline-block;      
+}
+
+/* Hover state */
+nav a:hover {
+  background-color: white;
+  color: orange;
+}
+
+/* Main and Sidebar */
+.container {
+  display: flex; 
+  margin: 10px;
+}
+
+/* Main content */
+.main {
+  width: 70%; 
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 30%; 
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgray; 
+}
+.sidebar:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* To make textbox bigger when cursor focuses on it */
+#name:focus {
+  width: 450px; 
+}
